@@ -1,0 +1,61 @@
+:root {
+    --app-primary-color: #25caf0;
+    --app-background-color: black;
+    --app-font-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--app-background-color);
+    color: var(--app-font-color);
+    font-family: "Roboto";
+}
+
+.my-nav {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(254, 252, 252, 0.1);
+}
+
+.card-body {
+    background-color: var(--app-primary-color);
+}
+
+.cards-main img {
+    aspect-ratio: 4/3;
+}
+
+.btn-primary {
+    background-color: var(--app-primary-color);
+    border-color: var(--app-primary-color);
+}
+
+.icon {
+    background-color: var(--app-primary-color);
+}
+
+.page-footer {
+    background-color: var(--app-primary-color);
+}
+
+.footer-title {
+    font-size: 32px;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
